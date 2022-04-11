@@ -78,7 +78,7 @@ btnAccept.onclick = function(){
         fetch("http://www.raydelto.org/agenda.php",{
         
                 method: 'POST',
-        
+
                 body: JSON.stringify(data)
         
         }).then(function(){
